@@ -1,9 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{ /* asterisco para que se aplique a todos los elementos */
+    padding: 0; /* quita el padding por defecto de todos los buscadores*/
+    margin: 0; /* quita el margin por defecto de todos los buscadores*/
 }
-
-
 
 body{
     background-color: #000000;
@@ -17,6 +16,47 @@ body{
 }
 
 .presentacion{
-    display:flex;
-    align-items: center;
+    display:flex;/* usa flexbox para organizar las cajas */
+    align-items: center; /* alinea los elementos verticalmente */
+    margin:10% 15%; /* margen de 10% arriba y abajo y 15% a los lados */
+    justify-content: space-between; /* separa los elementos horizontalmente */
+}
+
+.presentacion-contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column; /* para que los elementos se organicen en columna */
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Krona One", serif;
+}
+
+.presentacion__contenido__parrafo{
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    /* justify-content: space-between; cambio de espacio entre rows a column ya no funciona */
+    flex-direction: column;
+    align-items: center; /* alinea los elementos verticalmente */
+    gap: 32px;
+}
+
+.presentacion__enlaces__link{
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
 }
