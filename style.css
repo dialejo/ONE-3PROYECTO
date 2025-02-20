@@ -59,10 +59,22 @@ body{
     text-decoration: none;
     color: #f6f6f6;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .presentacion__enlaces__subtitulo{
     font-size: 24px;
     font-family: "Krona One", sans serif;
     font-weight: 400;
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: #272727;
+
+}
+
+.parrafo_nombre:hover{
+    color: yellow;
 }
