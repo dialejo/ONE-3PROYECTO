@@ -7,7 +7,6 @@
 body{
     background-color: #000000;
     color: #f6f6f6;
-    height: 100vh;
     box-sizing: border-box; /* para que el boxing de los hijos no se salgan del padre */
 }
 
@@ -18,7 +17,7 @@ body{
 .presentacion{
     display:flex;/* usa flexbox para organizar las cajas */
     align-items: center; /* alinea los elementos verticalmente */
-    margin:10% 15%; /* margen de 10% arriba y abajo y 15% a los lados */
+    padding:6% 15%; /* padding para que no se pegue a los bordes */
     justify-content: space-between; /* separa los elementos horizontalmente */
 }
 
@@ -32,6 +31,27 @@ body{
 .presentacion__contenido__titulo{
     font-size: 36px;
     font-family: "Krona One", serif;
+}
+
+.header{
+    padding:2% 0% 0% 15%;
+}
+
+.header__nav{
+    display:flex;
+    gap: 80px;
+}
+
+.header_nav_link{
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.header_nav_link:hover{
+    color: #007bff
 }
 
 .presentacion__contenido__parrafo{
@@ -72,9 +92,20 @@ body{
 
 .presentacion__enlaces__link:hover{
     background-color: #272727;
-
+    cursor: pointer;
 }
 
 .parrafo_nombre:hover{
     color: yellow;
 }
+
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
