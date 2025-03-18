@@ -96,8 +96,14 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
+    align-items: center;
 }
 
+.presentacion__enlaces__link img{
+    width: 32px; /* Ajusta el tamaño del ícono */
+    height: 32px; /* Asegura que sea cuadrado */
+    object-fit: contain;
+}
 
 .presentacion__enlaces__subtitulo{
     font-size: 1.5rem;
