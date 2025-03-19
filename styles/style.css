@@ -158,3 +158,13 @@ body{
 
 
 }
+@media (max-width: 768px) {
+    .header {
+        padding: 5%; /* Reduce el padding para más espacio */
+    }
+    .header__nav {
+        display: flex;
+        align-items: center; /* Centra los enlaces */
+        gap: 5%; /* Reduce el espacio entre enlaces */
+    }
+}
