@@ -43,7 +43,7 @@ body{
 }
 
 .presentacion__contenido__titulo{
-    font-size: 2rem;
+    font-size: 2.0rem;
     font-family: var(--fuente-secundaria);
     text-align: center;
 }
@@ -55,13 +55,21 @@ body{
 .header__nav{
     display:flex;
     gap: 80px;
+    flex-wrap: wrap;
+    padding: 15px 25px;
+    border: 2px solid var(--color-terciario);
+    border-radius: 8px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-terciario);
 }
 
 .header_nav_link{
     font-size: 1.5rem;
     font-family: var(--fuente-primaria);
     font-weight: 600;
-    color: var(--color-terciario);
+    color: var(--color-primario);
     text-decoration: none;
 }
 
@@ -143,10 +151,14 @@ body{
 
     .header{
         padding: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .header__nav{
         justify-content: center;
+        padding: 3% 10%;
     }
 
     .presentacion{
@@ -169,5 +181,6 @@ body{
         justify-content: space-around;
         flex-wrap: wrap; 
         gap: 5%; 
+        padding: 2% 10%;
     }
 }
