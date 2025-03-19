@@ -164,7 +164,8 @@ body{
     }
     .header__nav {
         display: flex;
-        align-items: center; /* Centra los enlaces */
-        gap: 5%; /* Reduce el espacio entre enlaces */
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        gap: 5%; 
     }
 }
