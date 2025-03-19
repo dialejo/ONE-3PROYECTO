@@ -43,8 +43,9 @@ body{
 }
 
 .presentacion__contenido__titulo{
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fuente-secundaria);
+    text-align: center;
 }
 
 .header{
@@ -72,6 +73,7 @@ body{
     font-size: 1.5rem;
     font-family: var(--fuente-primaria);
     font-weight: 400;
+    text-align: justify;
 }
 
 .presentacion__enlaces{
