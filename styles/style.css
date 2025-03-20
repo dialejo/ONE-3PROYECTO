@@ -63,6 +63,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--color-terciario);
+    gap: 32px;
 }
 
 .header_nav_link{
