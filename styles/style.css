@@ -137,6 +137,7 @@ body{
     object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
     display: block;
     margin: 0 auto;
+    border-radius: 4%;
 }
 .footer{
     background-color: var(--color-terciario);
